@@ -1,0 +1,46 @@
+
+
+.area-left-menu .left-menu {
+  z-index: 9999;
+  position: fixed;
+  top:20%;
+}
+.newClass {
+  width: 90px;
+  padding-left: 45px;
+}
+
+.tooltip.right  { margin-left: 42px; }
+
+.tooltip.right .tooltip-inner  {
+  background-color:red;
+  
+}
+
+.tooltip.right .tooltip-arrow {
+        border-right-color: red;
+        
+}
+
+
+.tooltip {
+	position: fixed;
+	
+}
+
+.area-left-menu .left-menu  .list-group .list-group-item {
+  padding: 2px;
+  width: 65px;
+  line-height: 50px;
+}
+
+
+.area-left-menu .left-menu .list-group .list-group-item img {
+  padding-left: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .area-left-menu .left-menu{
+      display: none;
+  }
+}
